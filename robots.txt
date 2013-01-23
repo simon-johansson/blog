@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: http://simon-johansson.github.com/blog/sitemap.xml 
