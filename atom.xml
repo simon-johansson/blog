@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://simon-johansson.github.com/blog/atom.xml" rel="self"/>
   <link href="http://simon-johansson.github.com/blog/"/>
-  <updated>2013-01-24T01:04:18+01:00</updated>
+  <updated>2013-01-24T01:08:11+01:00</updated>
   <id>http://simon-johansson.github.com/blog/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -12,6 +12,22 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[NAME OF BLOG ARTICLE]]></title>
+    <link href="http://simon-johansson.github.com/blog/blog/2013/01/24/name-of-blog-article/"/>
+    <updated>2013-01-24T01:07:00+01:00</updated>
+    <id>http://simon-johansson.github.com/blog/blog/2013/01/24/name-of-blog-article</id>
+    <content type="html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+<p>heeeeellooooooo</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Test]]></title>
