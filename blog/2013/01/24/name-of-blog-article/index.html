@@ -3,78 +3,54 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>NAME OF BLOG ARTICLE - My Octopress Blog</title>
+	<title>NAME OF BLOG ARTICLE | My Octopress Blog</title>
 	<meta name="author" content="Your Name">
 
 	
 	<meta name="description" content="Test Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim &hellip;">
 	
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 	<link href="/blog/atom.xml" rel="alternate" title="My Octopress Blog" type="application/atom+xml">
 	<link rel="canonical" href="">
 	<link href="/blog/favicon.png" rel="shortcut icon">
 	<link href="/blog/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
 	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+	
+
 	
 </head>
 
 <body>
-	<header id="header" class="inner"><h1><a href="/blog/">My Octopress Blog</a></h1>
-<nav id="main-nav"><ul class="main">
-	<li><a href="/blog/">Blog</a></li>
-	<li><a href="/blog/blog/archives">Archives</a></li>
-</ul>
-</nav>
-<nav id="mobile-nav">
-	<div class="alignleft menu">
-		<a class="button">Menu</a>
-		<div class="container"><ul class="main">
-	<li><a href="/blog/">Blog</a></li>
-	<li><a href="/blog/blog/archives">Archives</a></li>
-</ul>
-</div>
-	</div>
-	<div class="alignright search">
-		<a class="button"></a>
-		<div class="container">
-			<form action="http://google.com/search" method="get">
-				<input type="text" name="q" results="0">
-				<input type="hidden" name="q" value="site:simon-johansson.github.com/blog">
-			</form>
-		</div>
-	</div>
-</nav>
-<nav id="sub-nav" class="alignright">
-	<div class="social">
-		
-		
-		
-		
-    
-		
-		
-		
-		
-		
-		<a class="rss" href="/blog/atom.xml" title="RSS">RSS</a>
-		
-	</div>
-	<form class="search" action="http://google.com/search" method="get">
-		<input class="alignright" type="text" name="q" results="0">
-		<input type="hidden" name="q" value="site:simon-johansson.github.com/blog">
-	</form>
-</nav>
+	<header id="header" class="inner"><nav><ul>
+  <li><a href="/blog/">Home</a></li>
+  <li><a href="/blog/blog/archives">Archives</a></li>
+</ul></nav>
+</header>
+	<div id="content" class="inner"><article class="post"><header>
+  
+  <h1 class="title">NAME of BLOG ARTICLE</h1>
+  
+  
+
+
+
+
+
+
+
+
+	
+		<time datetime="2013-01-24T01:18:00+01:00">
+			<span class="day">24</span><span class="month">Jan</span>
+		</time>
+	
 
 </header>
-	
-		
-	
-	<div id="content" class="inner"><article class="post">
-	<h2 class="title">NAME of BLOG ARTICLE</h2>
-	<div class="entry-content"><p>Test</p>
+<div class="entry-content">
+  
+    <p>Test</p>
 
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -82,30 +58,9 @@ quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-</div>
 
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-01-24T01:18:00+01:00" pubdate data-updated="true">Jan 24<span>th</span>, 2013</time></div>
-	<div class="tags">
-
-</div>
-	
-</div></article>
-
-	<div class="share">
+    
+      <div class="sharing">
 	<div class="addthis_toolbox addthis_default_style ">
 	
 	
@@ -114,25 +69,55 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 	
 	<a class="addthis_counter addthis_pill_style"></a>
 	</div>
-  <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid="></script>
+	<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-4daee9911f9dfcb4"></script>
 </div>
+    
+  
+  
+  <footer class="meta">
+    
 
 
+
+    
+  </footer>
+  
 </div>
-	<footer id="footer" class="inner">Copyright &copy; 2013
-
-    Your Name
-
-</footer>
-	<script src="/blog/javascripts/slash.js"></script>
-<script src="/blog/javascripts/jquery.fancybox.pack.js"></script>
+</article></div>
+	<footer id="footer" class="inner"><div class="social alignright">
+	
+	
+	
+	
+	
+	<a class="rss" href="/blog/atom.xml" title="RSS">RSS</a>
+</div>
+<p>&copy; 2013 Your Name</p>
+<div class="clearfix"></div></footer>
+	<script src="/blog/javascripts/jquery.fancybox.pack.js"></script>
 <script type="text/javascript">
-(function($){
-	$('.fancybox').fancybox();
-})(jQuery);
-</script> <!-- Delete or comment this line to disable Fancybox -->
+	(function($){
+		$('.entry-content').each(function(i){
+			var _i = i;
+			$(this).find('img').each(function(){
+				var alt = $(this).attr('alt');
 
-
+				if (alt == '' || typeof alt == 'undefined'){
+					$(this).wrap('<a href="'+$(this).attr('src')+'" class="fancybox" rel="gallery'+_i+'" />');
+				} else {
+					$(this).after('<span class="caption">'+alt+'</span>').wrap('<a href="'+$(this).attr('src')+'" class="fancybox" title="'+alt+'" rel="gallery'+_i+'" />');
+				}
+			});
+		});
+		$('.fancybox').fancybox();
+	})(jQuery);
+</script>
+<div id="phasebeam">
+	<canvas></canvas>
+	<canvas></canvas>
+	<canvas></canvas>
+</div>
+<script src="/blog/javascripts/phasebeam.js"></script>
 
 
 
