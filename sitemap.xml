@@ -2,18 +2,22 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
         <loc>http://simon-johansson.github.com/blog/blog/2013/01/24/name-of-blog-article/</loc>
-        <lastmod>2013-01-24T01:26:15+01:00</lastmod>
+        <lastmod>2013-01-24T01:29:44+01:00</lastmod>
     </url>
     <url>
         <loc>http://simon-johansson.github.com/blog/about/</loc>
-        <lastmod>2013-01-24T01:26:15+01:00</lastmod>
+        <lastmod>2013-01-24T01:29:44+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://simon-johansson.github.com/blog/blog/archives/</loc>
+        <lastmod>2013-01-24T01:29:44+01:00</lastmod>
     </url>
     <url>
         <loc>http://simon-johansson.github.com/blog/</loc>
-        <lastmod>2013-01-24T01:26:15+01:00</lastmod>
+        <lastmod>2013-01-24T01:29:44+01:00</lastmod>
     </url>
     <url>
         <loc>http://simon-johansson.github.com/blog/robots.txt</loc>
-        <lastmod>2013-01-24T00:26:58+01:00</lastmod>
+        <lastmod>2013-01-24T01:29:43+01:00</lastmod>
     </url>
 </urlset>
