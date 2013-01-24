@@ -9,10 +9,10 @@
   <meta name="author" content="Your Name">
 
   
-  <meta name="description" content="Blog Archive 2013 Test
+  <meta name="description" content=" Tweet Blog Archive 2013 Test
 Jan 23 2013 2012 The problem with Pingdom
 Jul 22 2012 posted in uptime Intro
-Jul 22 2012 posted in self Recent Posts Test The &hellip;">
+Jul 22 2012 posted in self ">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -36,40 +36,74 @@ Jul 22 2012 posted in self Recent Posts Test The &hellip;">
 
 </head>
 
-<body   >
-  <header role="banner"><hgroup>
-  <h1><a href="/blog/">My Octopress Blog</a></h1>
-  
-    <h2>A blogging framework for hackers.</h2>
-  
-</hgroup>
+<body >
+  <header role="banner" id="sidebar">
+    <!-- Logo -->
+<aside id="logo" class="clearfix">
+  <div class="clearfix">
+    <a href="/blog/">My Octopress Blog</a>
+  </div>
+</aside>
 
-</header>
-  <nav role="navigation"><ul class="subscription" data-subscription="rss">
-  <li><a href="/blog/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
-  
+<ul id="menu">
+
+  <li class="title">
+    <h1 id="title"><a href="/blog/">My Octopress Blog</a></h1>
+  </li>
+
+
+  <li class="subtitle">
+    <h2 id="subtitle">A blogging framework for hackers.</h2>
+  </li>
+
+  <li class="link">
+    <a href="/about/">about</a>
+  </li>
+
+
+  <li class="link rss">
+    <a href="/atom.xml">rss feed</a>
+  </li>
 </ul>
-  
+
+
 <form action="http://google.com/search" method="get">
   <fieldset role="search">
     <input type="hidden" name="q" value="site:simon-johansson.github.com/blog" />
     <input class="search" type="text" name="q" results="0" placeholder="Search"/>
   </fieldset>
 </form>
-  
-<ul class="main-navigation">
-  <li><a href="/blog/">Blog</a></li>
-  <li><a href="/blog/blog/archives">Archives</a></li>
-</ul>
 
-</nav>
-  <div id="main">
-    <div id="content">
-      <div>
-<article role="article">
+
+<!-- Octopress Love -->
+<aside id="octopress_linkback">
+  <a href="http://octopress.org/">
+    <span class="unicode_square">
+      <span class="unicode_circle">
+        &nbsp;
+      </span>
+    </span>
+    <span class="octopress">Powered by Octopress</span>
+  </a>
+</aside>
+
+  </header>
+  <section id="main">
+    <div>
+<article role="article" class="post">
+  
+    <div class="sharing-box">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://simon-johansson.github.com/blog/blog/archives/index.html" data-via="" data-counturl="http://simon-johansson.github.com/blog/blog/archives/index.html" data-size="large">Tweet</a>
+  
+  
+  
+</div>
+
+  
   
   <header>
-    <h1 class="entry-title">Blog Archive</h1>
+    <h2 class="entry-title">Blog Archive</h2>
     
   </header>
   
@@ -126,44 +160,12 @@ Jul 22 2012 posted in self Recent Posts Test The &hellip;">
 
 </div>
 
-<aside class="sidebar">
+    <nav role="navigation" id="pagination">
+
+</nav>
+  </section>
   
-    <section>
-  <h1>Recent Posts</h1>
-  <ul id="recent_posts">
-    
-      <li class="post">
-        <a href="/blog/blog/2013/01/23/test/">Test</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/blog/2012/07/22/the-problem-with-pingdom/">The problem with Pingdom</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/blog/2012/07/22/intro/">Intro</a>
-      </li>
-    
-  </ul>
-</section>
 
-
-
-
-
-
-  
-</aside>
-
-
-    </div>
-  </div>
-  <footer role="contentinfo"><p>
-  Copyright &copy; 2013 - Your Name -
-  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
-</p>
-
-</footer>
   
 
 
@@ -181,7 +183,6 @@ Jul 22 2012 posted in self Recent Posts Test The &hellip;">
       document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
     })();
   </script>
-
 
 
 
